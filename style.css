@@ -1,0 +1,65 @@
+*{ /* Reseteo de los estilos globales del navegador */
+    box-sizing: border-box;   /* Propiedad para que todos los elementos ocupen todo el espaciado 
+                                tanto interno y externo */
+    margin:0px;               /* Para que no haya margenes hacia afuera */
+    padding: 0px;             /* Para que no haya espaciado hacia dentro  */
+}
+body{
+    background: url(img/Background.jpg);
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+    color: white;
+}
+.Container{
+  width: 90%;
+  margin: auto;
+  
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+ list-style: none;
+}
+/* Navigation */
+.nav-main{
+    font-size: 15px;
+    display: flex; /* Me permitira organizar los elementos */
+    justify-content: space-between; /* Permite ocupar todo el ancho disponible */
+    align-items: center;
+    height: 60px;/* altura por defecto */
+    padding: 20px 0;
+    border-radius: 20px;
+  box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+}
+.nav-brand{
+    width: 450px;
+}
+/* nav LEFT */
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li {
+    padding: 10px;
+}
+.nav-main ul li a{
+   padding: 6px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 2px solid white;
+   
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 35px;
+}
+/* Show case */
+.showcase{
+    width: 100%;
+    height: 550px;
+    margin-top: 40px;
+}
