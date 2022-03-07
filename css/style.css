@@ -15,7 +15,6 @@ body, html{
   width: 100%;
   margin: auto;
   background-color:#111;
-  
   }
 a{
   color: white;
@@ -52,8 +51,17 @@ list-style: none;
   flex: 1;
   margin-left: 35px;
 }
-.showcase video{
+.showcase{
   width: 100%;
+  height: 92%;
+}
+.showcase video{
+object-fit: cover;
+ background-size: cover;
+ width:100%;
+ height: 93%;  
+ top: 0; 
+ left: 0;
 }
 .pimg1, .pimg2, .pimg3{
   position:relative;
@@ -92,7 +100,7 @@ list-style: none;
   top:50%;
   width:100%;
   text-align:center;
-  color:#000;
+  color:#111;
   font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
